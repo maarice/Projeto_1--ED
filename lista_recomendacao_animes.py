@@ -33,7 +33,7 @@ class Lista_animes:
             proximo_noh = proximo_noh.proximo_anime
 
     def mostra_anime(self):
-        print('\nEsta é sua lista de animes: Aproveite!!!')
+        print('\nEsta é sua lista de animes:')
         proximo_noh = self.cabeca
 
         while proximo_noh:
